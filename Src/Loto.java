@@ -16,7 +16,7 @@ public class Loto {
         }
         Arrays.sort(second);
         System.out.print(Arrays.toString(first));
-        System.out.println("");
+        System.out.println(" ");
         System.out.print(Arrays.toString(second));
         for(int i = 0; i < second.length; i++){
             if(first[i]==second[i]) count++;
